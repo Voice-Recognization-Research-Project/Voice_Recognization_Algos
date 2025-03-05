@@ -1,0 +1,54 @@
+# Voice_Recognization_Algos
+
+This repository is dedicated to developing and evaluating speech recognition algorithms on Telugu audio datasets. The project includes implementations and experiments with five different algorithms:
+
+- **Whisper**
+- **Wav2Vec 2.0**
+- **BiLSTM**
+- **HMM**
+- **IndicTrans**
+
+## Overview
+
+The goal of this project is to build a robust speech recognition system for Telugu language audio. The repository contains:
+- **Telugu Audio Datasets:** Collected and preprocessed audio data for training and evaluation.
+- **Algorithm Implementations:** Code for five state-of-the-art speech recognition approaches.
+
+## Datasets
+
+The Telugu audio datasets included in this repository are used for training and testing the various models.  
+- **Source:** [Add dataset source links or descriptions here]
+- **Preprocessing:** [Describe any preprocessing steps or tools used]
+
+## Algorithms
+
+1. **Whisper:**  
+   An end-to-end speech recognition model that leverages large-scale training data for robust performance.
+
+2. **Wav2Vec 2.0:**  
+   A self-supervised model by Facebook that learns representations directly from raw audio, improving recognition accuracy in low-resource settings.
+
+3. **BiLSTM:**  
+   A bidirectional LSTM network that captures context from both past and future audio frames for improved sequence modeling.
+
+4. **HMM (Hidden Markov Model):**  
+   A traditional statistical model for speech recognition that segments audio into discrete states.
+
+5. **IndicTrans:**  
+   A specialized model aimed at transcription and translation of Indic languages, adapted for Telugu speech recognition.
+
+## Installation
+
+### Prerequisites
+- Python 3.x
+- Libraries: PyTorch, TensorFlow (if needed), librosa, numpy, etc.
+- Other dependencies as listed in `requirements.txt`
+
+### Setup
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/YourUsername/Voice_Recognization_Algos.git
+cd Voice_Recognization_Algos
+pip install -r requirements.txt
+
+
